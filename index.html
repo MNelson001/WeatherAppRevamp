@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24333c8874.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather</h1>
+        </header>
+        <div class="main">
+            <div id="search">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-7">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+                            </div>
+                            <input type="text" id="city" class="form-control" placeholder="Search City, or zip code"
+                                aria-label="Username" aria-describedby="basic-addon1">
+                            <button type="button" id="btn" class="search-btn btn btn-primary">Show Weather</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="testBtn">Test</button>
+
+
+
+    <script src="inits.js"></script>
+    <script src="const.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
