@@ -6,8 +6,7 @@ document.getElementById('city').addEventListener("keyup", function (event) {
     }
 });
 
-function searchWeather() {
-    var cityName = searchCity.value;
+function searchWeather(cityName) {
     if (cityName.trim().length == 0) {
         return alert('Please enter a City Name');
     }
